@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ObserverComponent } from './observer/observer.component';
+import { OperatorsComponent } from './operators/operators.component';
+import { SubScriptionComponent } from './sub-scription/sub-scription.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ObserverComponent,
+    OperatorsComponent,
+    SubScriptionComponent
   ],
   imports: [
     BrowserModule,
